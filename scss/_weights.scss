@@ -1,0 +1,15 @@
+
+// https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+
+%font-weight-normal {
+  font-weight: normal;
+}
+
+%font-weight-bold {
+  font-weight: bold;
+}
+
+b,
+strong {
+  @extend %font-weight-bold;
+}

@@ -4,8 +4,7 @@ Typografie voor het Web.
 
 ## TODO
 
-- Lijsten;
-- tabellen;
+- Tabellen;
 - formulieren;
 - spatiëring;
 - variabele gewichten;
