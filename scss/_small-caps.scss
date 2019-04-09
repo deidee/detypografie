@@ -1,0 +1,17 @@
+
+// http://webtypography.net/3.2.2
+%small-caps {
+  font-variant-caps: all-small-caps;
+  font-variant-numeric: oldstyle-nums;
+  font-style: normal;
+
+  // See https://www.w3.org/TR/css-text-3/
+  // Requires testing.
+  &:lang(ja) {
+    text-transform: full-width;
+  }
+}
+
+abbr {
+  @extend %small-caps;
+}

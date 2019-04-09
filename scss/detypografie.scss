@@ -1,4 +1,5 @@
 
-:root {
-  text-rendering: optimizeLegibility;
-}
+@import "base";
+@import "headings";
+@import "paragraphs";
+@import "small-caps";

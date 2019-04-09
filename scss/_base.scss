@@ -1,0 +1,37 @@
+
+$sans-serif: sans-serif, serif !default;
+$serif: serif, sans-serif !default;
+$tab-size: 4 !default;
+
+b,
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  margin: 1.5rem 0 1.5rem 2rem;
+}
+
+cite,
+dfn,
+em,
+i,
+var {
+  font-style: italic;
+}
+
+code, kbd, pre, samp {
+  font-family: monospace, sans-serif;
+}
+
+html {
+  font: normal 100%/1.5 $serif;
+  // https://www.w3.org/TR/css-text-3/#hanging-punctuation-property
+  hanging-punctuation: allow-end;
+  // https://www.w3.org/TR/css-text-3/#hyphenation
+  hyphens: auto;
+  // https://www.w3.org/TR/css-text-3/#tab-size-property
+  // https://en.wikipedia.org/wiki/Tab_key#Tab_characters
+  // Requires testing.
+  tab-size: $tab-size;
+}
