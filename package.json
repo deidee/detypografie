@@ -1,0 +1,27 @@
+{
+  "name": "detypografie",
+  "version": "0.0.1",
+  "description": "Typografie voor het Web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deidee/detypografie.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "gulp",
+    "typography",
+    "design"
+  ],
+  "author": "ACJ",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/deidee/detypografie/issues"
+  },
+  "homepage": "https://github.com/deidee/detypografie#readme"
+}
