@@ -1,5 +1,5 @@
 {
-  "name": "detypografie",
+  "name": "@deidee/detypografie",
   "version": "0.0.4",
   "description": "Typografie voor het Web.",
   "main": "index.js",
