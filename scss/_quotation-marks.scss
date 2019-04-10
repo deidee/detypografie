@@ -1,0 +1,402 @@
+
+// https://en.wikipedia.org/wiki/Quotation_mark
+
+:lang(af) // https://en.wikipedia.org/wiki/Afrikaans
+{
+  quotes: '“' '”' '‘' '’';
+}
+
+:lang(sq) // https://en.wikipedia.org/wiki/Albanian_language
+{
+  quotes: '„' '“' '‘' '’';
+}
+
+:lang(am) // https://en.wikipedia.org/wiki/Amharic
+{
+  quotes: '«' '»' '‹' '›';
+}
+
+:lang(ar) // https://en.wikipedia.org/wiki/Arabic
+{
+  quotes: '«' '»';
+}
+
+:lang(hy) // https://en.wikipedia.org/wiki/Armenian_language
+{
+  @extend :lang(ar);
+}
+
+:lang(az) // https://en.wikipedia.org/wiki/Azerbaijani_language
+{
+  quotes: '«' '»' '„' '“';
+}
+
+:lang(eu) // https://en.wikipedia.org/wiki/Basque_language
+{
+  @extend :lang(am);
+}
+
+:lang(be) // https://en.wikipedia.org/wiki/Belarusian_language
+{
+  quotes: '«' '»' '“' '”';
+}
+
+:lang(bs) // https://en.wikipedia.org/wiki/Bosnian_language
+{
+  quotes: '”' '”' '’' '’';
+}
+
+:lang(bg) // https://en.wikipedia.org/wiki/Bulgarian_language
+{
+  quotes: '„' '“' '’' '’';
+}
+
+:lang(ca) // https://en.wikipedia.org/wiki/Catalan_language
+{
+  @extend :lang(be);
+}
+
+:lang(zh) // https://en.wikipedia.org/wiki/Simplified_Chinese_characters
+  // Does it make sense to asume zh-Hans here?
+{
+  @extend :lang(af);
+}
+
+:lang(zh-Hant) // https://en.wikipedia.org/wiki/Traditional_Chinese_characters
+{
+  quotes: '「' '」' '『' '』';
+}
+
+:lang(hr) // https://en.wikipedia.org/wiki/Croatian_language
+{
+  @extend :lang(sq);
+}
+
+:lang(cs) // https://en.wikipedia.org/wiki/Czech_language
+{
+  quotes: '„' '“' '‚' '‘';
+}
+
+:lang(da) // https://en.wikipedia.org/wiki/Danish_language
+{
+  quotes: '»' '«' '›' '‹';
+}
+
+:lang(nl) // https://en.wikipedia.org/wiki/Dutch_language
+{
+  quotes: '„' '”' '‚' '’';
+}
+
+:lang(en) // https://en.wikipedia.org/wiki/British_English
+{
+  // Does it make sense to assume en-GB here?
+  // TODO: Add "1–2 pt" (according to Wikipedia).
+  quotes: '‘' '’' '“' '”';
+}
+
+:lang(en-US), // https://en.wikipedia.org/wiki/American_English
+:lang(en-CA) // https://en.wikipedia.org/wiki/Canadian_English
+{
+  // TODO: Add "1–2 pt" (according to Wikipedia).
+  @extend :lang(af);
+}
+
+:lang(et) // https://en.wikipedia.org/wiki/Estonian_language
+{
+  quotes: '„' '“';
+}
+
+:lang(eo) // https://en.wikipedia.org/wiki/Esperanto
+{
+  @extend :lang(af);
+}
+
+:lang(fil) // https://en.wikipedia.org/wiki/Filipino_language
+{
+  @extend :lang(af);
+}
+
+:lang(fi) // https://en.wikipedia.org/wiki/Finnish_language
+{
+  @extend :lang(bs);
+}
+
+:lang(fr) // https://en.wikipedia.org/wiki/French_language
+{
+  // Note that these contain (non-breaking) spaces!
+  quotes: '« ' ' »';
+}
+
+// https://en.wikipedia.org/wiki/Quotation_mark#cite_note-ch-38
+:lang(fr-CH),
+:lang(de-CH),
+:lang(it-CH)
+{
+  @extend :lang(am);
+}
+
+:lang(gl) // https://en.wikipedia.org/wiki/Galician_language
+{
+  @extend :lang(be);
+}
+
+:lang(ka) // https://en.wikipedia.org/wiki/Georgian_language
+{
+  @extend :lang(et);
+}
+
+:lang(de) // https://en.wikipedia.org/wiki/German_language
+{
+  @extend :lang(cs);
+}
+
+:lang(el) // https://en.wikipedia.org/wiki/Greek_language
+{
+  @extend :lang(be);
+}
+
+:lang(he) // https://en.wikipedia.org/wiki/Hebrew_language
+{
+  quotes: '„' '”' '‚' '’';
+}
+
+:lang(hi) // https://en.wikipedia.org/wiki/Hindi
+{
+  @extend :lang(af);
+}
+
+:lang(hu) // https://en.wikipedia.org/wiki/Hungarian_language
+{
+  quotes: '„' '”' '»' '«';
+}
+
+:lang(is) // https://en.wikipedia.org/wiki/Icelandic_language
+{
+  @extend :lang(cs);
+}
+
+:lang(id) // https://en.wikipedia.org/wiki/Indonesian_language
+{
+  @extend :lang(af);
+}
+
+:lang(ia) // https://en.wikipedia.org/wiki/Interlingua
+{
+  @extend :lang(af);
+}
+
+:lang(ga) // https://en.wikipedia.org/wiki/Irish_language
+{
+  @extend :lang(af);
+}
+
+:lang(it) // https://en.wikipedia.org/wiki/Italian_language
+{
+  @extend :lang(be);
+}
+
+:lang(ja) // https://en.wikipedia.org/wiki/Japanese_language
+{
+  @extend :lang(zh-Hant);
+}
+
+:lang(kk) // https://en.wikipedia.org/wiki/Kazakh_language
+{
+  @extend :lang(ar);
+}
+
+:lang(km) // https://en.wikipedia.org/wiki/Khmer_language
+{
+  @extend :lang(ar);
+}
+
+:lang(ko) // https://en.wikipedia.org/wiki/Korean_language
+  // Does it make sense to assume ko-KR here?
+{
+  @extend :lang(af);
+}
+
+:lang(ko-KP) // https://en.wikipedia.org/wiki/North_Korea
+{
+  quotes: '《' '》' '〈' '〉';
+}
+
+:lang(lo) // https://en.wikipedia.org/wiki/Lao_language
+{
+  quotes: '“' '”';
+}
+
+:lang(lv) // https://en.wikipedia.org/wiki/Latvian_language
+{
+  @extend :lang(lo);
+}
+
+:lang(lt) // https://en.wikipedia.org/wiki/Lithuanian_language
+{
+  @extend :lang(cs);
+}
+
+:lang(jbo) // https://en.wikipedia.org/wiki/Lojban
+{
+  quotes: 'lu ' ' li’u';
+}
+
+:lang(mk) // https://en.wikipedia.org/wiki/Macedonian_language
+{
+  quotes: '„' '“' '’' '‘';
+}
+
+:lang(mn) // https://en.wikipedia.org/wiki/Mongolian_language
+  // mn-Cyrl (https://en.wikipedia.org/wiki/Mongolian_Cyrillic_alphabet) is assumed.
+{
+  @extend :lang(az);
+}
+
+:lang(mn-Mong) // https://en.wikipedia.org/wiki/Mongolian_script
+{
+  @extend :lang(ko-KP);
+}
+
+:lang(khb) // https://en.wikipedia.org/wiki/Tai_Lue_language
+{
+  @extend :lang(ko-KP);
+}
+
+:lang(no) // https://en.wikipedia.org/wiki/Norwegian_language
+{
+  quotes: '«' '»' '‘' '’';
+}
+
+:lang(oc) // https://en.wikipedia.org/wiki/Occitan_language
+{
+  @extend :lang(be);
+}
+
+:lang(ps) // https://en.wikipedia.org/wiki/Pashto
+{
+  @extend :lang(ar); // Does it require more space? The example on Wikipedia seems imply this, but doesn't mention it.
+}
+
+:lang(fa) // https://en.wikipedia.org/wiki/Persian_language
+{
+  @extend :lang(ar);
+}
+
+:lang(pl) // https://en.wikipedia.org/wiki/Polish_language
+{
+  quotes: '„' '”' '«' '»';
+}
+
+:lang(pt) // https://en.wikipedia.org/wiki/Portuguese_language
+  // pt-PT is implied.
+{
+  @extend :lang(be);
+}
+
+:lang(pt-BR) // https://en.wikipedia.org/wiki/Brazilian_Portuguese
+{
+  @extend :lang(af);
+}
+
+:lang(ro) // https://en.wikipedia.org/wiki/Romanian_language
+{
+  @extend :lang(pl);
+}
+
+:lang(rm) // https://en.wikipedia.org/wiki/Romansh_language
+{
+  @extend :lang(am);
+}
+
+:lang(ru) // https://en.wikipedia.org/wiki/Russian_language
+{
+  @extend :lang(az);
+}
+
+:lang(sr) // https://en.wikipedia.org/wiki/Serbian_language
+{
+  @extend :lang(bg);
+}
+
+:lang(gd) // https://en.wikipedia.org/wiki/Scottish_Gaelic
+{
+  @extend :lang(en); // Make sure to extend British English, which is currently implied by en.
+}
+
+:lang(sk) // https://en.wikipedia.org/wiki/Slovak_language
+{
+  @extend :lang(cs);
+}
+
+:lang(sl) // https://en.wikipedia.org/wiki/Slovene_language
+{
+  @extend :lang(cs);
+}
+
+:lang(wen) // https://en.wikipedia.org/wiki/Sorbian_languages
+{
+  @extend :lang(cs);
+}
+
+:lang(es) // https://en.wikipedia.org/wiki/Spanish_Language
+{
+  @extend :lang(be);
+}
+
+:lang(sv) // https://en.wikipedia.org/wiki/Swedish_language
+{
+  @extend :lang(bs);
+}
+
+// https://en.wikipedia.org/wiki/Tai_Le_language
+:lang(tdd),
+:lang(thi)
+{
+  @extend :lang(ko-KP);
+}
+
+:lang(bo) // https://en.wikipedia.org/wiki/Standard_Tibetan
+{
+  @extend :lang(ko-KP);
+}
+
+:lang(ti) // https://en.wikipedia.org/wiki/Tigrinya_language
+{
+  @extend :lang(am);
+}
+
+:lang(th) // https://en.wikipedia.org/wiki/Thai_language
+{
+  @extend :lang(af);
+}
+
+:lang(tr) // https://en.wikipedia.org/wiki/Turkish_language
+{
+  @extend :lang(af);
+}
+
+:lang(uk) // https://en.wikipedia.org/wiki/Ukrainian_language
+{
+  @extend :lang(az);
+}
+
+:lang(ug) // https://en.wikipedia.org/wiki/Uyghur_language
+{
+  @extend :lang(ps);
+}
+
+:lang(uz) // https://en.wikipedia.org/wiki/Uzbek_language
+{
+  @extend :lang(az);
+}
+
+:lang(vi) // https://en.wikipedia.org/wiki/Vietnamese_language
+{
+  @extend :lang(lo);
+}
+
+:lang(cy) // https://en.wikipedia.org/wiki/Welsh_language
+  // TODO: Add spacing.
+{
+  @extend :lang(en);
+}
