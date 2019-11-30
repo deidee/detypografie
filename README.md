@@ -1,4 +1,4 @@
-# ![detypografie](https://deidee.com/logo.svg?text=deTypografie)
+# ![detypografie](https://deidee.com/logo.png?text=deTypografie)
 
 Typografie voor het Web.
 
