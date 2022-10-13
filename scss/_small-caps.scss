@@ -4,9 +4,9 @@
   font-variant-caps: all-small-caps;
   font-variant-numeric: oldstyle-nums;
   font-style: normal;
+  letter-spacing: $small-caps-letter-spacing;
 
   // See https://www.w3.org/TR/css-text-3/
-  // Requires testing.
   &:lang(ja) {
     text-transform: full-width;
   }

@@ -1,0 +1,11 @@
+@use "sass:map";
+
+$base-font-size: 100% !default;
+
+$typographic-scale: major-third !default;
+
+$tab-size: 4 !default;
+
+$paragraph-text-indent: 2rem !default;
+
+$small-caps-letter-spacing: .05em !default; // The Elements of Typographic Style (version 4.2) page 30

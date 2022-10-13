@@ -1,3 +1,5 @@
+@use "sass:math";
+@use "sass:map";
 
 h1,
 h2,
@@ -10,3 +12,30 @@ h6 {
   // See https://css-tricks.com/almanac/properties/t/text-rendering/.
   text-rendering: optimizeLegibility;
 }
+
+h1 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), 3) * 1rem;
+}
+
+h2 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), 2) * 1rem;
+}
+
+h3 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), 1) * 1rem;
+}
+
+h4 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), 0) * 1rem;
+}
+
+h5 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), -1) * 1rem;
+}
+
+h6 {
+  font-size: math.pow(map.get($typographic-scales, $typographic-scale), -2) * 1rem;
+}
+
+
+

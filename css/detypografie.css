@@ -21,9 +21,10 @@ code, kbd, pre, samp {
 }
 
 html {
-  font: normal 100%/1.5 serif, sans-serif;
+  font: normal 100% serif, sans-serif;
   hanging-punctuation: allow-end;
   hyphens: auto;
+  line-height: 1.5;
   tab-size: 4;
 }
 
@@ -35,6 +36,30 @@ h5,
 h6 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, serif;
   text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 1.953125rem;
+}
+
+h2 {
+  font-size: 1.5625rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.8rem;
+}
+
+h6 {
+  font-size: 0.64rem;
 }
 
 ol {
@@ -172,6 +197,7 @@ abbr {
   font-variant-caps: all-small-caps;
   font-variant-numeric: oldstyle-nums;
   font-style: normal;
+  letter-spacing: 0.05em;
 }
 abbr:lang(ja) {
   text-transform: full-width;

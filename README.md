@@ -18,3 +18,9 @@ Typografie voor het Web.
 - spatiëring;
 - variabele gewichten;
 - korpsen.
+
+## Dank
+
+- [Peter Verheul](https://www.kabk.nl/docenten/peter-verheul)
+- [Frank E. Blokland](https://www.kabk.nl/docenten/frank-blokland)
+- [Sam Rose](https://samwho.dev/)
