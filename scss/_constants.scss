@@ -1,14 +1,30 @@
 
+/*
+# Inspiration
+
+- https://type-scale.com/
+- https://medium.com/@tilougarou/the-typographic-scale-reworked-a1b441b2beb2
+- https://www.modularscale.com/
+- https://www.layoutgridcalculator.com/type-scale/
+- http://retinart.net/typography/typographicscale/
+- https://material.io/design/typography/the-type-system.html#type-scale
+ */
+
+
 // https://type-scale.com/
 $typographic-scales: (
         minor-second: 1.067,
         major-second: 1.125,
         minor-third: 1.2,
         major-third: 1.25,
+        plastic-ratio: 1.32471, // https://en.wikipedia.org/wiki/Plastic_number
         perfect-fourth: 1.333,
         augmented-fourth: 1.414,
+        supergolden-ratio: 1.46557, // https://en.wikipedia.org/wiki/Supergolden_ratio
         perfect-fifth: 1.5,
-        golden-ratio: 1.618
+        golden-ratio: 1.618,
+        silver-ratio: 2.414213562, // https://en.wikipedia.org/wiki/Silver_ratio
+        bronze-ratio: 3.302775638 // https://en.wikipedia.org/wiki/Metallic_mean
 );
 
 // http://retinart.net/typography/typographicscale/

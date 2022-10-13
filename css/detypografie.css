@@ -1,4 +1,14 @@
 @charset "UTF-8";
+/*
+# Inspiration
+
+- https://type-scale.com/
+- https://medium.com/@tilougarou/the-typographic-scale-reworked-a1b441b2beb2
+- https://www.modularscale.com/
+- https://www.layoutgridcalculator.com/type-scale/
+- http://retinart.net/typography/typographicscale/
+- https://material.io/design/typography/the-type-system.html#type-scale
+ */
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,15 +49,15 @@ h6 {
 }
 
 h1 {
-  font-size: 1.953125rem;
+  font-size: 2.3246760655rem;
 }
 
 h2 {
-  font-size: 1.5625rem;
+  font-size: 1.7548565841rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.32471rem;
 }
 
 h4 {
@@ -55,11 +65,11 @@ h4 {
 }
 
 h5 {
-  font-size: 0.8rem;
+  font-size: 0.7548822006rem;
 }
 
 h6 {
-  font-size: 0.64rem;
+  font-size: 0.5698471368rem;
 }
 
 ol {
