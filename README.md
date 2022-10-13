@@ -2,7 +2,16 @@
 
 Typografie voor het Web.
 
-## TODO
+## Omvat
+
+- Koppen;
+- paragrafen;
+- citaten;
+- afkortingen;
+- lijsten;
+- gewichten.
+
+## Te doen
 
 - Tabellen;
 - formulieren;
