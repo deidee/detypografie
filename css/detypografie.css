@@ -40,15 +40,12 @@ h6 {
 ol {
   list-style-type: decimal;
 }
-
 ol > li > ol {
   list-style-type: lower-latin;
 }
-
 ol > li > ol > li > ol {
   list-style-type: lower-roman;
 }
-
 ol > li > ol > li > ol > li > ol {
   list-style-type: upper-latin;
 }
@@ -56,15 +53,12 @@ ol > li > ol > li > ol > li > ol {
 ul {
   list-style-type: disc;
 }
-
 ul > li > ul {
   list-style-type: circle;
 }
-
 ul > li > ul > li > ul {
   list-style-type: square;
 }
-
 ul > li > ul > li > ul > li > ul {
   list-style-type: disc;
 }
@@ -73,106 +67,105 @@ p {
   margin-bottom: 0;
   margin-top: 1.5rem;
 }
-
 p + p {
   margin-top: 0;
   text-indent: 2rem;
 }
 
-:lang(af), :lang(zh), :lang(en-US),
-:lang(en-CA), :lang(eo), :lang(fil), :lang(hi), :lang(id), :lang(ia), :lang(ga), :lang(ko), :lang(pt-BR), :lang(th), :lang(tr) {
-  quotes: '“' '”' '‘' '’';
+:lang(af), :lang(tr), :lang(th), :lang(pt-BR), :lang(ko), :lang(ga), :lang(ia), :lang(id), :lang(hi), :lang(fil), :lang(eo), :lang(en-US),
+:lang(en-CA), :lang(zh) {
+  quotes: "“" "”" "‘" "’";
 }
 
 :lang(sq), :lang(hr) {
-  quotes: '„' '“' '‘' '’';
+  quotes: "„" "“" "‘" "’";
 }
 
-:lang(am), :lang(eu), :lang(fr-CH),
+:lang(am), :lang(ti), :lang(rm), :lang(fr-CH),
 :lang(de-CH),
-:lang(it-CH), :lang(rm), :lang(ti) {
-  quotes: '«' '»' '‹' '›';
+:lang(it-CH), :lang(eu) {
+  quotes: "«" "»" "‹" "›";
 }
 
-:lang(ar), :lang(hy), :lang(kk), :lang(km), :lang(ps), :lang(ug), :lang(fa) {
-  quotes: '«' '»';
+:lang(ar), :lang(fa), :lang(ps), :lang(ug), :lang(km), :lang(kk), :lang(hy) {
+  quotes: "«" "»";
 }
 
-:lang(az), :lang(mn), :lang(ru), :lang(uk), :lang(uz) {
-  quotes: '«' '»' '„' '“';
+:lang(az), :lang(uz), :lang(uk), :lang(ru), :lang(mn) {
+  quotes: "«" "»" "„" "“";
 }
 
-:lang(be), :lang(ca), :lang(gl), :lang(el), :lang(it), :lang(oc), :lang(pt), :lang(es) {
-  quotes: '«' '»' '“' '”';
+:lang(be), :lang(es), :lang(pt), :lang(oc), :lang(it), :lang(el), :lang(gl), :lang(ca) {
+  quotes: "«" "»" "“" "”";
 }
 
-:lang(bs), :lang(fi), :lang(sv) {
-  quotes: '”' '”' '’' '’';
+:lang(bs), :lang(sv), :lang(fi) {
+  quotes: "”" "”" "’" "’";
 }
 
 :lang(bg), :lang(sr) {
-  quotes: '„' '“' '’' '’';
+  quotes: "„" "“" "’" "’";
 }
 
 :lang(zh-Hant), :lang(ja) {
-  quotes: '「' '」' '『' '』';
+  quotes: "「" "」" "『" "』";
 }
 
-:lang(cs), :lang(de), :lang(is), :lang(lt), :lang(sk), :lang(sl), :lang(wen) {
-  quotes: '„' '“' '‚' '‘';
+:lang(cs), :lang(wen), :lang(sl), :lang(sk), :lang(lt), :lang(is), :lang(de) {
+  quotes: "„" "“" "‚" "‘";
 }
 
 :lang(da) {
-  quotes: '»' '«' '›' '‹';
+  quotes: "»" "«" "›" "‹";
 }
 
 :lang(nl) {
-  quotes: '„' '”' '‚' '’';
+  quotes: "„" "”" "‚" "’";
 }
 
-:lang(en), :lang(gd), :lang(cy) {
-  quotes: '‘' '’' '“' '”';
+:lang(en), :lang(cy), :lang(gd) {
+  quotes: "‘" "’" "“" "”";
 }
 
 :lang(et), :lang(ka) {
-  quotes: '„' '“';
+  quotes: "„" "“";
 }
 
 :lang(fr) {
-  quotes: '« ' ' »';
+  quotes: "« " " »";
 }
 
 :lang(he) {
-  quotes: '„' '”' '‚' '’';
+  quotes: "„" "”" "‚" "’";
 }
 
 :lang(hu) {
-  quotes: '„' '”' '»' '«';
+  quotes: "„" "”" "»" "«";
 }
 
-:lang(ko-KP), :lang(mn-Mong), :lang(khb), :lang(tdd),
-:lang(thi), :lang(bo) {
-  quotes: '《' '》' '〈' '〉';
+:lang(ko-KP), :lang(bo), :lang(tdd),
+:lang(thi), :lang(khb), :lang(mn-Mong) {
+  quotes: "《" "》" "〈" "〉";
 }
 
-:lang(lo), :lang(lv), :lang(vi) {
-  quotes: '“' '”';
+:lang(lo), :lang(vi), :lang(lv) {
+  quotes: "“" "”";
 }
 
 :lang(jbo) {
-  quotes: 'lu ' ' li’u';
+  quotes: "lu " " li’u";
 }
 
 :lang(mk) {
-  quotes: '„' '“' '’' '‘';
+  quotes: "„" "“" "’" "‘";
 }
 
 :lang(no) {
-  quotes: '«' '»' '‘' '’';
+  quotes: "«" "»" "‘" "’";
 }
 
 :lang(pl), :lang(ro) {
-  quotes: '„' '”' '«' '»';
+  quotes: "„" "”" "«" "»";
 }
 
 abbr {
@@ -180,7 +173,6 @@ abbr {
   font-variant-numeric: oldstyle-nums;
   font-style: normal;
 }
-
 abbr:lang(ja) {
   text-transform: full-width;
 }
